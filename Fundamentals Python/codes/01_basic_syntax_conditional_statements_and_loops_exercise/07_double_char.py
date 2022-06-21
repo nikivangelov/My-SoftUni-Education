@@ -5,8 +5,8 @@ while True:
     elif string == 'SoftUni':
         continue
     else:
-        new_string = ''
+        opposite_string = ''
         for char in range(len(string)):
-            new_string += string[char] * 2
-        print(new_string)
+            opposite_string += string[char] * 2
+        print(opposite_string)
 

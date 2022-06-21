@@ -4,11 +4,11 @@ magic_number = int(input())
 
 combination_count = 0
 is_found = False
-for first_number in range(begin_number, last_number + 1):
-    for second_number in range(begin_number, last_number + 1):
+for aber in range(begin_number, last_number + 1):
+    for bber in range(begin_number, last_number + 1):
         combination_count += 1
-        if magic_number == first_number + second_number:
-            print(f'Combination N:{combination_count} ({first_number} + {second_number} = {magic_number})')
+        if magic_number == aber + bber:
+            print(f'Combination N:{combination_count} ({aber} + {bber} = {magic_number})')
             is_found = True
             break
 

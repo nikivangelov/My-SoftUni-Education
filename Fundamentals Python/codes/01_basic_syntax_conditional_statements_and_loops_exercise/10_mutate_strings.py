@@ -1,9 +1,9 @@
 first_string = input()
 second_string = input()
-new_string = ''
+opposite_string = ''
 for char in range(len(first_string)):
     if second_string[char] != first_string[char]:
-        new_string = first_string[char+1:]
-        print(f'{second_string[:char+1]}{new_string}')
+        opposite_string = first_string[char+1:]
+        print(f'{second_string[:char+1]}{opposite_string}')
     else:
         continue
